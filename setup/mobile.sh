@@ -22,4 +22,5 @@ haxelib git extension-androidtools https://github.com/MAJigsaw77/extension-andro
 haxelib install format --quiet
 haxelib install lime 7.7.0 --quiet
 haxelib install hxp --quiet
+haxelib install all --quiet
 echo Finished!
