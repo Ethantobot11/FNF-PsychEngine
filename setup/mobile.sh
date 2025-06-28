@@ -19,6 +19,6 @@ haxelib install hxvlc 2.0.1 --quiet --skip-dependencies
 haxelib git funkin.vis https://github.com/FunkinCrew/funkVis 22b1ce089dd924f15cdc4632397ef3504d464e90 --quiet --skip-dependencies
 haxelib git grig.audio https://gitlab.com/haxe-grig/grig.audio.git cbf91e2180fd2e374924fe74844086aab7891666 --quiet
 haxelib git extension-androidtools https://github.com/MAJigsaw77/extension-androidtools --quiet --skip-dependencies
-haxelib install format 3.8.0
-haxelib install lime
+haxelib install format 3.8.0 --quiet
+haxelib install lime 7.7.0 --quiet
 echo Finished!
