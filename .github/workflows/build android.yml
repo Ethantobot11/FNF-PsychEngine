@@ -44,7 +44,7 @@ jobs:
         uses: nttld/setup-ndk@main
         id: ndk
         with:
-          ndk-version: r28
+          ndk-version: r27c
 
       - name: Install libVLC
         if: inputs.name == 'Linux'
