@@ -7,6 +7,7 @@ echo This might take a few moments depending on your internet speed.
 echo fuck haxe hxcpp its annoying
 haxelib install hxcpp 4.3.2 --quiet
 haxelib git lime https://github.com/openfl/lime --quiet
+haxelib install lime --quiet
 haxelib install openfl 9.3.3 --quiet
 haxelib git flixel https://github.com/HaxeFlixel/flixel 5.6.1 --quiet
 haxelib install flixel-addons 3.2.2 --quiet
@@ -21,7 +22,6 @@ haxelib git funkin.vis https://github.com/FunkinCrew/funkVis 22b1ce089dd924f15cd
 haxelib git grig.audio https://gitlab.com/haxe-grig/grig.audio.git cbf91e2180fd2e374924fe74844086aab7891666 --quiet
 haxelib git extension-androidtools https://github.com/MAJigsaw77/extension-androidtools --quiet --skip-dependencies
 haxelib install format --quiet
-haxelib install lime 7.7.0 --quiet
 haxelib install hxp --quiet
 haxelib install all --quiet
 echo Finished!
