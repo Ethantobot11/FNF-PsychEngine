@@ -4,7 +4,8 @@ echo Making the main haxelib and setuping folder in same time..
 mkdir ~/haxelib && haxelib setup ~/haxelib
 echo Installing dependencies...
 echo This might take a few moments depending on your internet speed.
-haxelib git hxcpp https://github.com/HaxeFoundation/hxcpp --quiet
+echo fuck haxe hxcpp its annoying
+haxelib install hxcpp 4.3.2 --quiet
 haxelib git lime https://github.com/openfl/lime --quiet
 haxelib install openfl 9.3.3 --quiet
 haxelib git flixel https://github.com/HaxeFlixel/flixel 5.6.1 --quiet
