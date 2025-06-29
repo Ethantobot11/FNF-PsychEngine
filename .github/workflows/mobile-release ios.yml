@@ -1,4 +1,4 @@
-name: Mobile + Release
+name: Mobile + Release IOS
 on: workflow_dispatch
 
 permissions:
@@ -42,7 +42,7 @@ jobs:
           - name: iOS
             os: macos-15
             setupCommand: sh ./setup/mobile.sh
-            buildArgs: "ios -final -nosign -D officialBuild"
+            buildArgs: "ios officialBuild"
             artifactName: iOSBuild
             artifactPath: "export/release/ios/build/Release-iphoneos/*.ipa"
     uses: ./.github/workflows/build ios.yml
