@@ -5,11 +5,11 @@ mkdir ~/haxelib && haxelib setup ~/haxelib
 echo Installing dependencies...
 echo This might take a few moments depending on your internet speed.
 echo fuck haxe hxcpp its annoying
-haxelib install hxcpp 4.3.2 --quiet
-haxelib git lime https://github.com/openfl/lime --quiet
+haxelib git https://github.com/cortex-engine/hxcpp --quiet
+haxelib git lime https://github.com/FunkinDroidTeam/lime --quiet
 haxelib install lime --quiet
-haxelib install openfl 9.3.3 --quiet
-haxelib git flixel https://github.com/HaxeFlixel/flixel 5.6.1 --quiet
+haxelib git https://github.com/FunkinDroidTeam/openfl --quiet
+haxelib git flixel https://github.com/FunkinDroidTeam/flixel 5.6.1 --quiet
 haxelib install flixel-addons 3.2.2 --quiet
 haxelib install flixel-tools 1.5.1 --quiet
 haxelib install hscript-iris 1.1.3 --quiet
