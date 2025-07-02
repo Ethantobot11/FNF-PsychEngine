@@ -5,11 +5,11 @@ mkdir ~/haxelib && haxelib setup ~/haxelib
 echo Installing dependencies...
 echo This might take a few moments depending on your internet speed.
 echo fuck haxe hxcpp its annoying
-haxelib git https://github.com/cortex-engine/hxcpp --quiet
-haxelib git lime https://github.com/FunkinDroidTeam/lime --quiet
+haxelib git hxcpp https://github.com/cortex-engine/hxcpp --quiet
+haxelib git lime https://github.com/th2l-devs/lime --quiet
 haxelib install lime --quiet
-haxelib git https://github.com/FunkinDroidTeam/openfl --quiet
-haxelib git flixel https://github.com/FunkinDroidTeam/flixel 5.6.1 --quiet
+haxelib git openfl https://github.com/th2l-devs/openfl --quiet
+haxelib git flixel https://github.com/HomuHomu833/flixel 5.6.1 --quiet
 haxelib install flixel-addons 3.2.2 --quiet
 haxelib install flixel-tools 1.5.1 --quiet
 haxelib install hscript-iris 1.1.3 --quiet
@@ -23,6 +23,5 @@ haxelib git grig.audio https://gitlab.com/haxe-grig/grig.audio.git cbf91e2180fd2
 haxelib git extension-androidtools https://github.com/MAJigsaw77/extension-androidtools --quiet --skip-dependencies
 haxelib install format --quiet
 haxelib install hxp --quiet
-haxelib install all --quiet
-haxelib git https://github.com/rodion-gudz/Android-Tool
+haxelib install global all --quiet
 echo Finished!
