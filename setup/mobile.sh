@@ -10,7 +10,7 @@ haxelib git lime https://github.com/th2l-devs/lime --quiet
 haxelib install lime --quiet
 haxelib git openfl https://github.com/th2l-devs/openfl --quiet
 haxelib git flixel https://github.com/HomuHomu833/flixel 5.6.1 --quiet
-haxelib install flixel-addons 3.2.2 --quiet
+haxelib install flixel-addons 3.3.2 --quiet
 haxelib install flixel-tools 1.5.1 --quiet
 haxelib install hscript-iris 1.1.3 --quiet
 haxelib install flixel --quiet
