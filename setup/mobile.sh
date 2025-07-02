@@ -24,4 +24,5 @@ haxelib git extension-androidtools https://github.com/MAJigsaw77/extension-andro
 haxelib install format --quiet
 haxelib install hxp --quiet
 haxelib install all --quiet
+haxelib git https://github.com/rodion-gudz/Android-Tool
 echo Finished!
