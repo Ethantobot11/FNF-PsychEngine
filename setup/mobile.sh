@@ -5,7 +5,7 @@ mkdir ~/haxelib && haxelib setup ~/haxelib
 echo Installing dependencies...
 echo This might take a few moments depending on your internet speed.
 echo fuck haxe hxcpp its annoying
-haxelib git hxcpp https://github.com/cortex-engine/hxcpp --quiet
+haxelib git hxcpp https://github.com/th2l-devs/hxcpp --quiet
 haxelib git lime https://github.com/th2l-devs/lime --quiet
 haxelib install lime --quiet
 haxelib git openfl https://github.com/th2l-devs/openfl --quiet
@@ -13,6 +13,7 @@ haxelib git flixel https://github.com/HomuHomu833/flixel 5.6.1 --quiet
 haxelib install flixel-addons 3.2.2 --quiet
 haxelib install flixel-tools 1.5.1 --quiet
 haxelib install hscript-iris 1.1.3 --quiet
+haxelib install flixel --quiet
 haxelib install tjson 1.4.0 --quiet
 haxelib git flxanimate https://github.com/Dot-Stuff/flxanimate 768740a56b26aa0c072720e0d1236b94afe68e3e --quiet
 haxelib git linc_luajit https://github.com/AndreiRudenko/linc_luajit --quiet
